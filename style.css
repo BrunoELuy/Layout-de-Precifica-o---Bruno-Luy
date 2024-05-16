@@ -1,0 +1,166 @@
+
+/*Estilo Geral*/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .roboto-thin-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .roboto-light-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .roboto-regular-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .roboto-medium-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .roboto-bold-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .roboto-black-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+}
+
+.barra{
+    background-color: #1EA358;
+    height: 50px; /*Altura da barra, usando em pixels*/
+    width: 100%; /*Largura da barra, usando a porcentagem ele simboliza o 100% da página*/
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilo do Cabeçalho */
+header{
+    padding: 40px 4%; /* espaço interno a um elemento HTML */
+}
+
+.logo img {
+    max-width: 100%; /* Adicionando esta regra para garantir que a imagem do logo não ultrapasse a largura do seu contêiner */
+}
+
+.menu-desktop ul {
+    list-style-type: none;
+}
+
+.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.menu-desktop ul li a {
+    color: #000000;
+    text-decoration: none; /* Removendo o sublinhado padrão dos links */
+    transition: color 0.3s; /* Adicionando uma transição suave para a mudança de cor do texto */
+}
+
+.menu-desktop ul li a:hover {
+    color: #1EA358; /* Mudando a cor do texto quando o mouse passa por cima */
+}
+
+.contactButton {
+  background: #1EA358;
+  color: white;
+  font-family: class="roboto-regular";
+  padding: 0.45em;
+  padding-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #1EA358;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3em;
+}
+
+.iconButton {
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #155531;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.contactButton:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em #003b1a;
+}
+
+.contactButton:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em #1EA358;
+}
